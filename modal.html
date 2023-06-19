@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Wendy">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modal sample</title>
+  <style>
+    body{
+      height: 2000px;
+      margin-top: 100px;
+    }
+  .right-side{
+    position: fixed;
+    background-color: rgb(46, 128, 46);
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+  }
+  .modal-box{
+    background-color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    width: 300px;
+  }
+   
+  .general-div{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .head-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .name{
+    margin-bottom: 12px;
+  }
+  </style>
+</head>
+<body>
+  <!--
+<div class="right-side">right sidebar</div>
+<div class="modal-box">
+  <div>Modal Title</div>
+  <div>This is a modal</div>
+  <button>Close</button>
+</div>
+-->
+<div class="right-side">right sidebar</div>
+<div class="general-div">
+<div class="modal-box">
+  <div class="head-name">Modal Title</div>
+  <div class="name">This is a modal</div>
+  <button class="name">Close</button>
+</div>
+</div>
+</body>
+</html>
